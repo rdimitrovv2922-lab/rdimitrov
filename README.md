@@ -12,8 +12,14 @@ A browser-based Yu-Gi-Oh! project with account sign-in, a deck builder with serv
 - **Status:** Active prototype. Card effects are currently managed by players, and there is no hosted demo.
 - **Source code and setup:** [Yugi-app repository](https://github.com/rdimitrovv2922-lab/Yugi-app)
 
-### [COOL Compiler Front End](https://github.com/rdimitrovv2922-lab/cool-compiler)
+### [COOL Compiler](https://github.com/rdimitrovv2922-lab/cool-compiler)
 
-C++ and ANTLR4 lexer and parser for COOL. Semantic analysis and code generation are not implemented.
+C++ and ANTLR4 compiler for COOL. Current completed stages:
 
-For the complete list of repositories, visit [my GitHub repositories](https://github.com/rdimitrovv2922-lab?tab=repositories).
+- **COOL Lexer** (C++)
+Developed a lexical analyzer for the COOL programming language using ANTLR4 and C++. Implemented token recognition for language constructs, keywords, operators, identifiers, literals, and comments, with support for lexical error handling.
+
+- **COOL Parser** (C++)
+Developed a syntax analyzer for the COOL programming language using ANTLR4. Implemented grammar rules for language constructs, expression parsing, and parse-tree generation, with a tree printer for visualizing the resulting syntax structure.
+
+- **Source code and setup:** [my GitHub repositories](https://github.com/rdimitrovv2922-lab/cool-compiler).
