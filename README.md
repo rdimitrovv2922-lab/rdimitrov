@@ -22,4 +22,4 @@ Developed a lexical analyzer for the COOL programming language using ANTLR4 and 
 - **COOL Parser** (C++)
 Developed a syntax analyzer for the COOL programming language using ANTLR4. Implemented grammar rules for language constructs, expression parsing, and parse-tree generation, with a tree printer for visualizing the resulting syntax structure.
 
-- **Source code and setup:** [my GitHub repositories](https://github.com/rdimitrovv2922-lab/cool-compiler).
+- **Source code and setup:** [Cool compiler repository](https://github.com/rdimitrovv2922-lab/cool-compiler).
